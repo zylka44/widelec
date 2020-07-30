@@ -1,0 +1,51 @@
+<h1>{{form.get('id').value ? 'Edycja dania' : 'Dodawanie dania'}}</h1>
+
+<form [formGroup]="form" (ngSubmit)="save()">
+    <div class="control-group">
+      <label class="control-label">Nazwa:</label>
+      <input type="text" formControlName="name">
+      <span *ngIf="form.get('name').hasError('required') && form.get('name').touched" class="error">
+        wpisz nazwę dania
+      </span>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label">Zdjęcie:</label>
+      <input type="text" formControlName="imageUrl">
+      <span *ngIf="form.get('imageUrl').hasError('required') && form.get('imageUrl').touched" class="error">
+        podaj adres zdjęcia
+      </span>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label">Podgląd:</label>
+      <img [src]="form.get('imageUrl').value">
+    </div>
+
+    <div class="control-group">
+      <label class="control-label">Trudność:</label>
+      <input type="text" formControlName="difficulty">
+      <span *ngIf="form.get('difficulty').hasError('required') && form.get('difficulty').touched" class="error">
+        podaj trudność
+      </span>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label">Danie wegetariańskie:</label>
+      <input type="text" formControlName="vege">
+      <span *ngIf="form.get('vege').hasError('required') && form.get('vege').touched" class="error">
+        czy to danie jest wegetariańskie?
+      </span>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label">Danie na deser:</label>
+      <input type="text" formControlName="sweet">
+      <span *ngIf="form.get('sweet').hasError('required') && form.get('sweet').touched" class="error">
+        czy to danie może być deserem?
+      </span>
+    </div>
+
+    <button type="submit" [disabled]="form.invalid">Zapisz</button>
+    <button type="button" routerLink="../..">Anuluj</button>
+  </form>

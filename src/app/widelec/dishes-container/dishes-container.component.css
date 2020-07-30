@@ -1,0 +1,28 @@
+:host {
+  text-align: center;
+}
+
+app-dish {
+  transition: all 0.3s;
+}
+
+app-dish:hover {
+  transform:scale(1.05);
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-button {
+  color: #5aa8ba;
+  border: none;
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+  height: 55px;
+}
+

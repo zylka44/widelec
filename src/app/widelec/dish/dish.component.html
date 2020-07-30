@@ -1,0 +1,17 @@
+<h3>{{dish.name}}</h3>
+<div class="images">
+  <img [src]="dish.imageUrl"/>
+</div>
+<div class="difficulty" [title]="'Difficulty ' + dish.difficulty + '%'">
+  <div [style.width.%]="dish.difficulty"></div>
+</div>
+<div class="property" [class.active]="dish.vege">
+  VEGE
+</div>
+<div class="property" [class.active]="dish.sweet">
+  DESER
+</div>
+<div>
+  <button class="edit-button" title="edytuj" [routerLink]="['dishes', dish.id]"></button>
+</div>
+

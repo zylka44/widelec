@@ -1,0 +1,124 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "pizza",
+      "imageUrl": "/assets/pizza.jpg",
+      "difficulty": "70",
+      "vege": "false",
+      "sweet": "false"
+    },
+    {
+      "id": 2,
+      "name": "naleśniki",
+      "imageUrl": "/assets/crepes.jpg",
+      "difficulty": "10",
+      "vege": "true",
+      "sweet": "true"
+    },
+    {
+      "id": 3,
+      "name": "rosół",
+      "imageUrl": "/assets/broth.jpg",
+      "difficulty": "30",
+      "vege": "false",
+      "sweet": "false"
+    },
+    {
+      "id": 4,
+      "name": "zupa owocowa",
+      "imageUrl": "/assets/fruitsoup.jpg",
+      "difficulty": "65",
+      "vege": "true",
+      "sweet": "true"
+    },
+    {
+      "id": 5,
+      "name": "chaczapuri",
+      "imageUrl": "/assets/khachapuri.jpg",
+      "difficulty": "82",
+      "vege": "true",
+      "sweet": "false"
+    },
+    {
+      "id": 6,
+      "name": "kopytka",
+      "imageUrl": "/assets/kopytka.jpg",
+      "difficulty": "66",
+      "vege": "true",
+      "sweet": "true"
+    },
+    {
+      "id": 7,
+      "name": "owsianka",
+      "imageUrl": "/assets/porridge.jpg",
+      "difficulty": "44",
+      "vege": "true",
+      "sweet": "true"
+    },
+    {
+      "id": 8,
+      "name": "ratatuj",
+      "imageUrl": "/assets/ratatouille.jpg",
+      "difficulty": "79",
+      "vege": "true",
+      "sweet": "false"
+    },
+    {
+      "id": 9,
+      "name": "szkszuka",
+      "imageUrl": "/assets/shakshuka.jpg",
+      "difficulty": "54",
+      "vege": "true",
+      "sweet": "false"
+    },
+    {
+      "id": 10,
+      "name": "spagetti",
+      "imageUrl": "/assets/spaghetti.jpg",
+      "difficulty": "57",
+      "vege": "false",
+      "sweet": "false"
+    },
+    {
+      "id": 11,
+      "name": "sushi",
+      "imageUrl": "/assets/sushi.jpg",
+      "difficulty": "91",
+      "vege": "true",
+      "sweet": "false"
+    },
+    {
+      "id": 12,
+      "name": "zupa pomidorowa",
+      "imageUrl": "/assets/tomatosoup.jpg",
+      "difficulty": "58",
+      "vege": "true",
+      "sweet": "false"
+    },
+    {
+      "id": 13,
+      "name": "grochówka",
+      "imageUrl": "/assets/grochowka.jpg",
+      "difficulty": "32",
+      "vege": "false",
+      "sweet": "false"
+    },
+    {
+      "id": 14,
+      "name": "szarlotka",
+      "imageUrl": "/assets/szarlotka.jpg",
+      "difficulty": "71",
+      "vege": "true",
+      "sweet": "true"
+    },
+    {
+      "id": 15,
+      "name": "golonka",
+      "imageUrl": "/assets/golonka.jpg",
+      "difficulty": "88",
+      "vege": "false",
+      "sweet": "false"
+    }
+  ]
+}

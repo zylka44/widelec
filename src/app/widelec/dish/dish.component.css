@@ -1,0 +1,50 @@
+:host {
+  display: inline-block;
+  text-align: center;
+  background-color: #EEEEEE;
+  border-radius: .5rem;
+  padding: 3vh;
+  margin: 2vh;
+  box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+}
+
+h3 {
+  color: #24527a;
+}
+
+img {
+  height: 20vh;
+}
+
+.difficulty {
+  background-color: lightgray;
+  height: 10px;
+  margin: 5px;
+}
+
+.difficulty div {
+  background-color: #24527a;
+  height: 100%;
+}
+
+.property {
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px;
+  color: gray;
+}
+
+.property.active {
+  color: #5aa8ba;
+  font-weight: bold;
+}
+
+.edit-button {
+  color: gray;
+  border: 0;
+  background-image: url('/assets/dish-edit.png');
+  cursor: pointer;
+  margin-top: 10px;
+  height: 25px;
+  width: 25px;
+}
